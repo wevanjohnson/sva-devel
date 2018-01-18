@@ -24,6 +24,9 @@ through \code{\link{sva}}, \code{\link{svaseq}}, with low level functionality av
 through \code{\link{irwsva.build}} and \code{\link{ssva}}.
 }
 \examples{
+
+
+
 library(bladderbatch)
 library(limma)
 data(bladderdata)
@@ -40,4 +43,3 @@ psva_data <- psva(edata,batch.fac)
 \author{
 Elana J. Fertig
 }
-
